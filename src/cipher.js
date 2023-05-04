@@ -2,7 +2,7 @@ const cipher = {
   cipher: function (offset, string, action) {
     if (!offset || !string) {
       throw TypeError("Argumentos invalidos");
-    }
+    } 
     const validChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     let finalText = "";
     for (let i = 0; i < string.length; i++) {

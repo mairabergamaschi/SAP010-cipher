@@ -13,19 +13,20 @@ body {
 }
 
 #mainTitle {
-  font-size: 20px;
-  letter-spacing: 3px;
+  font-size: 25px;
+  letter-spacing: 2px;
   color: #170f1a;
   opacity: 0.8;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 40px;
   background-color: none;
 }
 
 #useThisToolTitle {
-  font-size: 14px;
-  letter-spacing: 2px;
-  line-height: 30px;
+  font-size: 20px;
+  font-weight: normal; 
+  letter-spacing: 1px;
+  line-height: 25px;
   margin-left: 60px;
   margin-right: 60px;
   color: #0e1412;
@@ -33,55 +34,60 @@ body {
 
 #shortDescription {
   font-weight: 30;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1px;
-  line-height: 30px;
+  line-height: 25px;
   margin-left: 60px;
   margin-right: 60px;
   color: #0e1412;
 }
 #chooseOption {
+  font-size: 20px; 
   color: #0e1412;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 #indicateBelow {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
   color: #0e1412;
 }
 
 ::placeholder {
   color: #314ec4;
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
 }
 
 #encodeOption {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 100;
   letter-spacing: 2px;
 }
 
 #decodeOption {
-  font-size: 16px;
+  font-size: 17px;
   color: #0e1412;
   font-weight: 100;
 }
 
 #insertNum {
   font-family: "Roboto", regular 400;
-  font-size: 16px;
+  font-size: 20px;
   color: #0e1412;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .transitionRadio {
-  width: 20px;
-  height: 20px;
+  font-family: "Roboto", regular 400;
+  font-size: 15px;
+  width: 17px;
+  height: 17px;
   transition: transform 2s;
 }
 .transitionRadio:checked {
-  transform: scale(2);
+  transform: scale(1);
 }
 
 .textBox {
@@ -89,7 +95,7 @@ body {
   width: 500px;
   margin: 10px;
   border: none;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   font-size: 15px;
   resize: none;
   padding: 15px;
@@ -106,27 +112,26 @@ body {
 }
 
 #numBox {
-  height: 20px;
-  width: 30px;
+  height: 5px;
+  width: 40px;
   margin: 10px;
   border: none;
-  border-radius: 0px 0px 0px 0px;
+  border-radius: 5px 5px 5px 5px;
   margin-right: 10px;
   font-family: "Roboto", regular 400;
-  font-size: 18px;
+  font-size: 15px;
   resize: none;
-  padding: 15px;
+  padding: 10px;
   opacity: 50%;
 }
 
 .sendText {
-  background: #2a98cf;
+  background: #c1e5ee;
   border-radius: 5px;
-  box-shadow: 0 1px #1d1111;
   padding: 5px 9px;
-  color: #162a79;
+  color: #1d2646;
   display: inline-block;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
 }
 
