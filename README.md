@@ -32,7 +32,7 @@ Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 
 Foi desenvolvida uma aplicação que permite ao usuário cifrar e decifrar um texto no navegador indicando um deslocamento
 específico de caracteres (offset). 
-É de suma importância ressaltar que essa aplicação funcina apenas para letras (sejam elas maiúsculas ou minúsculas). Caso o usuário entre com caracteres especiais ou números, esses permanecem os mesmos e não são codificados/decodificados.
+É de suma importância ressaltar que essa aplicação funciona apenas para letras (sejam elas maiúsculas ou minúsculas). Caso o usuário entre com caracteres especiais ou números, esses permanecem os mesmos e não são codificados/decodificados.
 
 ## 3. Interface do projeto
 
