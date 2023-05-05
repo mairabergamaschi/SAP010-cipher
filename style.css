@@ -1,0 +1,144 @@
+html,
+body {
+  background-color: #83cbdd;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Roboto", regular;
+  font-size: 20px;
+  color: #231d25;
+  margin: auto;
+  padding: auto;
+  border-top: 0.4px solid #fff2e7;
+}
+
+#mainTitle {
+  font-size: 25px;
+  letter-spacing: 2px;
+  color: #170f1a;
+  opacity: 0.8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: none;
+}
+
+#useThisToolTitle {
+  font-size: 20px;
+  font-weight: normal; 
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #0e1412;
+}
+
+#shortDescription {
+  font-weight: 30;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: #0e1412;
+}
+#chooseOption {
+  font-size: 20px; 
+  color: #0e1412;
+  letter-spacing: 1px;
+}
+
+#indicateBelow {
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 10px;
+  color: #0e1412;
+}
+
+::placeholder {
+  color: #314ec4;
+  font-size: 15px;
+  text-align: center;
+}
+
+#encodeOption {
+  font-size: 17px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+#decodeOption {
+  font-size: 17px;
+  color: #0e1412;
+  font-weight: 100;
+}
+
+#insertNum {
+  font-family: "Roboto", regular 400;
+  font-size: 20px;
+  color: #0e1412;
+  letter-spacing: 1px;
+}
+
+.transitionRadio {
+  font-family: "Roboto", regular 400;
+  font-size: 15px;
+  width: 17px;
+  height: 17px;
+  transition: transform 2s;
+}
+.transitionRadio:checked {
+  transform: scale(1);
+}
+
+.textBox {
+  height: 100px;
+  width: 500px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 15px;
+  resize: none;
+  padding: 15px;
+  opacity: 60%;
+}
+
+
+#encode {
+  background: #221422;
+  color: #fff;
+  border: 0.1px solid rgb(26, 1, 29);
+  border-radius: 0px;
+  text-shadow: none;
+}
+
+#numBox {
+  height: 5px;
+  width: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  margin-right: 10px;
+  font-family: "Roboto", regular 400;
+  font-size: 15px;
+  resize: none;
+  padding: 10px;
+  opacity: 50%;
+}
+
+.sendText {
+  background: #c1e5ee;
+  border-radius: 5px;
+  padding: 5px 9px;
+  color: #1d2646;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+}
+
+#developedBy {
+  color: #576dc1;
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 20px;
+  padding: 10px;
+}

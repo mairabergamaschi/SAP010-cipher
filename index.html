@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Codificador de Textos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+    <div>
+      <h1 id="mainTitle">Criptografia e Decriptografia de Textos</h1>
+      <h2 id="useThisToolTitle"> A criptografia envolve a conversão de um texto legível em um texto incompreensível, o que é conhecido como texto cifrado. Pode ser utilizada para adicionar uma camada extra de proteção a informações privadas, como informações de conta, detalhes de viagem e cartas pessoais, por exemplo. </h2>
+      <img src="shutterstock_659004328-removebg-preview.png" width="250">
+    </div>
+    
+    <main>
+      <h3 id="shortDescription">
+        Esta ferramenta utiliza um tipo de cifra de substituição conhecida como
+        Cifra de César, na qual cada letra do texto é substituída por outra, que
+        se apresenta no alfabeto abaixo dela um número fixo de vezes. Por
+        exemplo, com uma troca de três posições, A seria substituído por D, B se
+        tornaria E, e assim por diante.
+      </h3>
+      <h4 id="chooseOption">Selecione o que você deseja fazer:</h4>
+
+      <section>
+        <input
+          type="radio"
+          name="action"
+          class="transitionRadio"
+          id="encode"
+          value="encode"
+        />
+        Codificar
+        <input
+          type="radio"
+          name="action"
+          class="transitionRadio"
+          id="decode"
+          value="decode"
+        />
+        Decodificar <br />
+      </section>
+
+      <h5 id="indicateBelow">
+        Indique no campo abaixo quantas posições você deseja que a cifra
+        desloque:
+      </h5>
+
+      <div id="insertNumBox">
+        <label id="insertNum"> Insira um número: </label>
+        <input id="numBox" type="number" />
+      </div>
+
+      <div>
+        <textarea
+          id="insertTextBox"
+          class="textBox"
+          placeholder="escreva aqui o texto que você deseja codificar ou decodificar"
+        ></textarea>
+        <textarea
+          id="resultArea"
+          class="textBox"
+          readonly
+          disabled
+        ></textarea>
+      </div>
+
+      <button id="sendText" class="sendText">Enviar texto</button>
+
+      <h6 id="developedBy">© Desenvolvido por Maíra Bergamaschi - Turma SAP010 Laboratória <br /></h6>
+    </main>
+    <script defer src="index.js" type="module"></script>
+  </body>
+</html>
